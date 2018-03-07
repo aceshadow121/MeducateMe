@@ -1,0 +1,585 @@
+@charset "utf-8";
+/* MASTER CSS */
+
+
+body{
+	margin: 0px;
+	width: 750px;
+	height: 1334px;
+}
+
+#wrapper{
+  	width: 750px;
+  	height: 1334px;
+  	position: relative;
+	
+}
+
+#menubar{
+	width:750px;
+	height: 100px;
+	position: absolute;
+	background-color: black;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 100px;
+	font-size: 40px;
+	color: white;
+	font-family:inconsolata;
+	font-weight:bold;
+}
+
+#HAM{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	vertical-align: middle;
+	line-height: 100px;
+	right: 320px;
+	z-index: 1;
+	
+}
+
+/*Login*/
+
+#grid{
+	top: 100px;
+	height: 1234px;
+	width: 750px;
+	position: absolute;
+	background-image:url(media/gridlines.png);
+	background-repeat:repeat-y;
+	z-index: 2;
+}
+
+#login_bg{
+	top: 100px;
+	height: 1234px;
+	width: 750px;
+	position: absolute;
+	overflow: hidden;
+}
+
+#loginpoly{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 150px;
+	left: 100px;
+	z-index: 3;
+}
+
+#brac{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 120px;
+	left: 12px;
+	z-index: 4;
+}
+
+#title{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	font-size: 80px;
+	font-family:inconsolata;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 15px;
+	top: 300px;
+	left: 80px;
+	z-index: 5;
+}
+
+#form{
+	width: 450px;
+	height: 400px;
+	position:absolute;
+	top: 760px;
+	left: 150px;
+	font-size: 32px;
+	font-family: inconsolata;
+	z-index: 6;
+}
+
+input[type=text], select {
+    width: 100%;
+	color: white;
+    padding: 15px 30px;
+    margin: 15px 0;
+    display: inline-block;
+	border: 2px solid #CCC;
+	outline: none;
+	box-sizing: border-box;
+	font-size: 24px;
+	background: transparent;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 15px 30px;
+    margin: 15px 0;
+    display: inline-block;
+    box-sizing: border-box;
+	border: 2px solid #CCC;
+	outline: none;
+	font-size: 24px;
+	background: transparent;
+}
+
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+	font-size: 24px;
+    padding: 25px 20px;
+    margin: 25px 0;
+    border: none;
+	outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#signup{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 7;
+	top: 1100px;
+	left: 190px;
+	color: white;
+	font-family:inconsolata;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+
+
+/* Home Page */
+
+#bg{
+	top: 100px;
+	width: 750px;
+	height: 100%;
+  	position: absolute;
+  	z-index: 2;
+}
+#bg_far{
+	top: 100px;
+  	position: absolute;
+  	z-index: 3;
+  	width: 750px;
+}
+
+#bg_near{
+	top: 362px;
+  	position: absolute;
+  	z-index: 4;
+  	width: 750px;
+}
+
+#INFO{
+	top: 120px;
+	left: 440px;
+	height: 118px;
+	width: 285px;
+	position: absolute;
+	z-index: 5;
+}
+
+#bg_doc{
+	top: 845px;
+	left: 485px;
+  	position: absolute;
+  	z-index: 6;
+	height: 100%;
+  	width: 100%;
+}
+
+#byte1{
+	top: 1036px;
+	width: 375px;
+	height: 98px;
+	background-color: #D1D2D4;
+	border: solid black 4px;
+	position: absolute;
+	text-align:center;
+	font-size: 33px;
+	padding-top: 50px;
+	font-family:inconsolata;
+	font-weight:bold;
+}
+
+#byte2{
+	top: 1177px;
+	width: 375px;
+	height: 98px;
+	background-color: #D1D2D4;
+	border: solid black 4px;
+	position: absolute;
+	text-align:center;
+	font-size: 33px;
+	padding-top: 50px;
+	font-family:inconsolata ;
+	font-weight:bold;
+	
+}
+
+#review{
+	top: 1036px;
+	left: 375px;
+	width: 368px;
+	height: 289px;
+	background-color: #B5312A;
+	border: black solid 4px;
+	position: absolute;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 430px;
+	color: white;
+	font-size: 36px;
+	font-family:inconsolata ;
+	font-weight:bold;
+	z-index: 3;
+}
+
+#loop{
+	height: 150px;
+	width: 150px;
+	margin-top: -80px;
+	margin-left: 110px;
+	position:absolute;
+	z-index: 4;
+}
+/* Hamburger Page */
+
+#hamburgermenubar{
+  width: 535px;
+  height: 146px;
+  position: absolute;
+  background-color: black;
+  vertical-align: middle;
+  line-height: 146px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: inconsolata;
+  font-weight: bold;
+	z-index: 1;
+}
+
+a{
+ text-decoration: none;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+	
+  font-size: 30px;
+  border-top: 1px solid black;
+  border-bottom: none;
+  padding: 35px 0px 55px 145px;
+	vertical-align: middle;
+  color: gray;
+}
+
+.icon{
+	position: absolute;
+	width: 7%;
+	height: 7%;
+	left:  57px;
+}
+
+#hamburgermenu{
+  top: 126px;
+  width: 535px;
+  height: 1334px;
+  position: absolute;
+  text-align: left;
+  font-family: inconsolata;
+  background-color: white;
+}
+
+/* Character Page */
+
+#choose{
+	top: 100px;
+	height: 1234px;
+	width: 750px;
+	position: absolute;
+}
+
+
+.line1{
+	position:absolute;
+	top: 55px;
+	left: 50px;
+}
+
+.line2{
+	position:absolute;
+	top: 55px;
+	left: 600px;
+}
+
+#choose_text{
+	top: 50px;
+	left: 180px;
+	position:absolute;
+	font-size: 36px;
+	font-family:"Proxima Nova Soft";
+}
+
+.bubble1{
+	top: 200px;
+	left: 75px;
+	width: 245px;
+	height: 245px;
+	position: absolute;
+}
+
+.bubble2{
+	top: 200px;
+	left: 425px;
+	width: 245px;
+	height: 245px;
+	position: absolute;
+}
+
+.bubble3{
+	top: 550px;
+	left: 75px;
+	width: 245px;
+	height: 245px;
+	position: absolute;
+}
+
+.bubble4{
+	top: 550px;
+	left: 425px;
+	width: 245px;
+	height: 245px;
+	position: absolute;
+}
+
+.bubble5{
+	top: 900px;
+	left: 75px;
+	width: 245px;
+	height: 245px;
+	position: absolute;
+}
+
+.bubble6{
+	top: 900px;
+	left: 425px;
+	width: 245px;
+	height: 245px;
+	position: absolute;
+}
+
+/*Battle*/
+#battle{
+	position: absolute;
+	top: 130px;
+	left: 260px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: inconsolata;
+	font-size: 30px;
+}
+
+.folder1{
+	width: 140px;
+	height: 88px;
+	position: absolute;
+	top: 200px;
+	left: 100px;
+}
+
+.user{
+	position: absolute;
+	z-index: 2;
+	bottom: 23px;
+	left: 35px;
+	font-size: 23px;
+	font-family:inconsolata;
+	font-weight: bold;
+}
+
+.folder2{
+	width: 140px;
+	height: 88px;
+	position: absolute;
+	top: 200px;
+	left: 530px;
+}
+
+.name{
+	height: 140px;
+	width: 140px;
+	text-align: center;
+	line-height: 140px;
+	top: -20px;
+	position: absolute;
+	z-index: 2;
+	font-size: 20px;
+	font-family:inconsolata;
+	font-weight: bold;
+}
+
+
+.sprite1{
+	width: 175px;
+	height: 231px;
+	position: absolute;
+	top: 340px;
+	left: 80px;
+}
+
+.sprite2{
+	width: 175px;
+	height: 237px;
+	position: absolute;
+	top: 340px;
+	left: 520px;
+}
+
+#diagnosis_box{
+	width: 750px;
+	height: 450px;
+	background-color: #E5F4F4;
+	position: absolute;
+	top: 605px;
+	z-index: 2;
+}
+
+#diagnosis{
+	width: 700px;
+	height: 440px;
+	position: absolute;
+	top: 625px;
+	left: 20px;
+	font-size: 33px;
+	font-family: inconsolata;
+	line-height: 45px;
+	z-index: 3;
+}
+
+#option1{
+	top: 1057px;
+	width: 371px;
+	height: 135px;
+	background-color: #292B2B;
+	border: solid black 4px;
+	position: absolute;
+}
+
+.opt1{
+	top: 45px;
+	left: 90px;
+	text-align:center;
+	font-size: 33px;
+	font-family:inconsolata;
+	position: absolute;
+	color: white;
+}
+
+#option2{
+	top: 1195px;
+	width: 371px;
+	height: 135px;
+	background-color: #292B2B;
+	color: white;
+	border: solid black 4px;
+	position: absolute;
+	
+}
+
+.opt2{
+	top: 25px;
+	left: 90px;
+	text-align:center;
+	font-size: 33px;
+	font-family:inconsolata;
+	position: absolute;
+	color: white;
+}
+
+#option3{
+	top: 1057px;
+	left: 374px;
+	width: 371px;
+	height: 135px;
+	background-color: #292B2B;
+	border: solid black 4px;
+	position: absolute;
+}
+
+.opt3{
+	top: 45px;
+	left: 100px;
+	text-align:center;
+	font-size: 33px;
+	font-family:inconsolata;
+	position: absolute;
+	color: white;
+}
+
+#option4{
+	top: 1195px;
+	left: 374px;
+	width: 371px;
+	height: 135px;
+	background-color: #292B2B;
+	color: white;
+	border: solid black 4px;
+	position: absolute;
+	
+}
+
+.opt4{
+	top: 25px;
+	left: 100px;
+	text-align:center;
+	font-size: 33px;
+	font-family:inconsolata;
+	position: absolute;
+	color: white;
+}
+
+#botbar{
+	top: 1234px;
+	width:750px;
+	height: 100px;
+	position: absolute;
+	background-color: black;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	font-size: 40px;
+	color: white;
+	font-family:inconsolata;
+	font-weight:bold;
+}
+
+#arrow{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	vertical-align: middle;
+	line-height: 100px;
+	left: 300px;
+	z-index: 7;
+}
